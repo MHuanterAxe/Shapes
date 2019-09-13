@@ -1,0 +1,179 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+@font-face{
+	font-family: Valken__;
+	src: url("Valken__.ttf");
+}
+
+body{
+	text-align: center;
+	font-family: Valken__;
+}
+
+.container{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.content{
+	position: absolute;
+	width: 800px;
+}
+
+.title{
+	font-size: 193.5px;
+	color: #F6F6F6;
+	letter-spacing: -1.94px;
+}
+
+.flex-content{
+	position: absolute;
+	top: 210px;
+	left: 60px;
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 660px;
+	min-height: 300px;
+}
+
+.flex-content section{
+	background-color: #F6F6F6;
+	border-radius: 15px;
+}
+
+.first-flex{
+	margin-right: 60px;
+	box-shadow: 15px 30px 60px rgba(135,133,162, 30%);
+}
+
+.second-flex{
+	width: 200px;
+	box-shadow: 15px 30px 60px rgba(135,133,162, 15%);
+}
+
+.first-grid-content{
+	width: 400px;
+	height: 300px;
+	display: grid;
+	grid-row-gap: 15px;
+	text-align: left;
+	color: #8785A2;
+}
+
+.first-grid1{
+	width: 257px;
+	height: 106px;
+}
+
+.first-grid1 span{
+	font-size: 43px;
+	line-height: 53px;
+}
+
+.second-grid1{
+	width: 80px;
+	height: 267px;
+	background-color: #FFE2E2;
+	border-radius: 15px;
+}
+
+.second-grid1 span{
+	font-size: 43px;
+	line-height: 53px;
+}
+
+.third-grid1{
+	width: 100px;
+	height: 150px;
+	background-color: #FFE2E2;
+	border-radius: 15px;
+}
+
+.third-grid1 span{
+	font-size: 43px;
+	line-height: 53px;
+}
+
+.fourth-grid1{
+	width: 30px;
+	height: 30px;
+	background-color: #FFC7C7;
+	border-radius: 15px;
+}
+
+.fifth-grid1{
+	width: 100px;
+	height: 30px;
+	background-color: #FFC7C7;
+	border-radius: 15px;
+}
+
+.fifth-grid1 span{
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.sixth-grid1{
+	width: 150px;
+	height: 100px;
+	background-color: #FFE2E2;
+	border-radius: 15px;
+}
+
+.sixth-grid1 span{
+	font-size: 43px;
+	line-height: 53px;
+}
+
+.second-grid-content{
+	height: 250px;
+	margin-top: 42.5px;
+	display: grid;
+	grid-template-rows: 85px 42.5px 85px;
+	grid-gap: 15px;
+	text-align: left;
+	color: #8785A2;
+}
+
+.second-grid-content div{
+	background-color: #FFE2E2;
+}
+
+.first-grid2{
+	margin-left: 15px;
+	width: 85px;
+	border-radius: 104px;
+	text-align: center;
+}
+
+.first-grid2 span{
+	display: inline-block;
+	margin-top: 22px;
+	font-size: 32px;
+}
+
+.second-grid2{
+	width: 170px;
+	border-radius: 15px;
+}
+
+.second-grid2 span{
+	display: inline-block;
+	margin: 2px 0 0 17px;
+	font-size: 32px;
+}
+
+.third-grid2{
+	width: 170px;
+	border-radius: 15px;
+}
+
+.third-grid2 span{
+	display: inline-block;
+	margin: 25px 0 0 15px;
+	font-size: 43px;
+}
